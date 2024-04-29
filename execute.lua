@@ -6,6 +6,6 @@ Duration = 5; -- how long the notification should in secounds
 
 
 wait(3)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/himbicdev/stayalive/main/paid.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/himbicdev/stayalive/main/paid.lua"), true)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/himbicdev/stayalive/main/infyield.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/himbicdev/stayalive/main/test.lua"))()
